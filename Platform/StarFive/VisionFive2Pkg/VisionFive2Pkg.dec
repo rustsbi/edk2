@@ -1,0 +1,16 @@
+## @file  VisionFive2Pkg.dec
+# This Package provides modules and libraries.for StarFive Vision Five 2 platform.
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001b
+  PACKAGE_NAME                   = VisionFive2Pkg
+  PACKAGE_GUID                   = A10E7DF0-B8AB-4DD0-B383-46358139D313
+  PACKAGE_VERSION                = 1.0
+
+[Includes]
+  Include
+
+[Guids]
+  gVisionFive2PkgTokenSpaceGuid  = {0x779E9346, 0x3C24, 0x478C, { 0xB1, 0x60, 0xB6, 0x09, 0xFC, 0xED, 0xA0, 0x72 }}
+  
